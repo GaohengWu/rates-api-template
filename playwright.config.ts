@@ -10,5 +10,6 @@ export default defineConfig({
   use: {
     baseURL: BASE_URL,
     extraHTTPHeaders: { Accept: 'application/json' },
+    ignoreHTTPSErrors: true,
   },
 });
