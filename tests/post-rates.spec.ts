@@ -47,4 +47,5 @@ test.describe('POST /api/rates', () => {
     expect(response.status()).toBe(409);
   });
   test.skip('returns 413 for body larger than 10000 bytes', async ({request}) => {});
+  //Currently not easy to test this
 });
